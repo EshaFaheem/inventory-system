@@ -69,8 +69,6 @@ export default function Home() {
       bgcolor="lavender"
       gap={2}
     >
-      <Typography variant="h2"> Esha's Inventory System
-        </Typography>
       <Modal open={open} onClose={handleClose}>
         <Box
           position="absolute"
